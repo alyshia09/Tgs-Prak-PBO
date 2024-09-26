@@ -1,0 +1,18 @@
+@startuml
+class Binatang {
+    - String name
+    Binatang(String nama)
+    + bersuara()
+}
+
+class Kucing {
+    Kucing(String nama)
+}
+
+class Cemeng {
+    Cemeng(String nama)
+}
+
+Binatang <|-- Kucing
+Kucing <|-- Cemeng
+@enduml

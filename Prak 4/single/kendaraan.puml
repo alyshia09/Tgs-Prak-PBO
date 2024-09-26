@@ -1,0 +1,14 @@
+@startuml
+class Mobil {
+    # String nama
+    + Mobil (String nama)
+    + klakson()
+}
+
+class Sedan {
+    + Sedan (String nama)
+    + klakson()
+}
+
+Mobil <|-- Sedan
+@enduml
